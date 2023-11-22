@@ -1,0 +1,36 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    border: 2px solid rgb(226, 221, 221);
+    border-radius: 5px;
+    width: 200px;
+} 
+#display{
+    margin: 10px;
+    width: 85%;
+    font-size: 20px;
+    font-size: 35px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.button{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    font-size: larger;
+    font-weight: 600;
+}

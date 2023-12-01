@@ -34,3 +34,9 @@
     font-size: larger;
     font-weight: 600;
 }
+.button:hover{
+    padding: 10px;
+    margin: 5px;
+    filter: drop-shadow(5px 10px 15px);
+    background: linear-gradient(rgb(230, 70, 70),rgb(96, 227, 96),rgb(232, 232, 52));
+}
